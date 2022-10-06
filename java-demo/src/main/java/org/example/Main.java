@@ -4,7 +4,7 @@ import com.lib.Simple;
 
 public class Main {
     public static void main(String[] args) {
-        System.load("C:\\Users\\Administrator\\Documents\\GitHub\\jipin\\cython-demo\\Simple.cp310-win_amd64.pyd");
+        System.load("/usr/local/Simple.cpython-37m-x86_64-linux-gnu.so");
         Simple simple = new Simple();
         simple.initModule();
         String result = simple.callPython("this is called from java");

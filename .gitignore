@@ -16,3 +16,4 @@ buildNumber.properties
 *.iml
 *.obj
 build/
+*.pyd
